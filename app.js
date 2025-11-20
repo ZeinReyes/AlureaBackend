@@ -20,7 +20,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: 'alurea-frontend.s3-website-ap-southeast-2.amazonaws.com',
+        origin: 'http://alurea-frontend.s3-website-ap-southeast-2.amazonaws.com',
         methods: ['GET', 'POST', 'PATCH'],
     },
 });
